@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="author" content="Beatriz Fortes" />
+	<link rel="BelleMaison icon" type="image/x-icon" href="images/BelleMaison.ico" />
+	<link href="css/caculhipotheque.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="javascript/calculhypotheque.js"></script> 
+
+<title> BelleMaison - L'agence immobilie&#768re </title>
+
+</head>
+
+<body class="boryClass">
+<header>
+<div id="topBelleMaison">
+<img id="logoBelleMaison" src="images/Belle maison.gif" alt="Logo">
+
+<a href="menu.html"><button  class="buttonReturnerMenu"  >Returner menu</button></a>
+
+<h2 id="titreBelleMaison">Hypothe&#768que:</h2>
+</div> 
+
+
+</header>
+
+
+<form id="formId" action="javascript:void(0);">
+<div class="container" >
+<h3 id="remplirId">Calculez vos versements Hypothe&#768caires. </h3>
+
+
+<!-- formulaire pour faire le calcul -->
+<div class="calculHipo">
+
+
+
+<table id="tableId">
+<hr>
+<div class="calc">
+<tr>
+  <td class="ordreCalcul" id="montant">Montant a&#768 emprunter:</td>
+<td><input class="inputClass" id="montantInput" name="number" type="text" size="10" maxlength="20"  /> </td>
+</tr>
+
+<tr>
+<td class="ordreCalcul" id="taux"> Taux d'inte&#769re&#770t: </td>
+<td><input class="resultatInputClass" id="tauxInput" name="number" type="text" size="10" maxlength="20"  /> </td>
+<td class="ordreCalcul" id="tauxA">%  par Anne&#769e. </td>
+</tr>
+
+<tr>
+<td class="ordreCalcul" id="terme"> Terme par anne&#769e : </td>
+<td><input class="inputClass" id="termeInput" name="date" type="text" size="10" maxlength="20"  /> </td>
+</tr>
+
+<tr>
+<td class="ordreCalcul" id="montantMois"> Montant a&#768 returner: </td>
+<td><input class="resultatInputClass" id="moisInputId" name="number" type="text" size="10" maxlength="20"  /> </td>
+<td class="ordreCalcul" id="montantM">$  par mois. </td>
+</tr>
+
+<tr>
+<td class="ordreCalcul" id="montantAnnee"> Montant a&#768 returner: </td>
+<td><input class="resultatInputClass" id="AnneeInputId" name="number" type="text" size="10" maxlength="20"  /> </td>
+<td class="ordreCalcul" id="montantA">$  par Anne&#769e. </td>
+</tr>
+
+
+</div>
+</hr>
+  
+  </table>
+</form>
+
+
+<div class="buttons">
+<br><br><input type="button" class="calculer" id="calculer" onclick="calculerMontant()" value="Calculer"/>
+<input type="button" class="effacer" id="effacer" onclick="effacer_Click()" value="Effacer"/> 
+
+      <div id="affichage">
+            
+        </div>
+
+
+
+
+ <footer>
+        <p>&copy;2021 BelleMaison - L'agence immobilie&#768re. Tous les droits sont re&#769serve&#769s.</p>
+    </footer> 
+	
+	</div>
+
+</div>
+
+</div>	
+
+</body>
+</html>
+
+
+
+
+

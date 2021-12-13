@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+/* Objectif : document CSS pour la page de Calcul hypothèque */
+/* Développé par: Beatriz Fortes */
+/* Script Date: 04 september, 2021 */
+
+#topBelleMaison {
+
+  border-bottom: 3px solid #463E82;
+  background-color: #C3D887 ;
+  background-size: 8px 8px;
+  background-repeat: no-repeat;
+  padding: none;
+
+	height:165px;
+
+}
+
+#logoBelleMaison{
+	position: relative;
+	top: 8px;
+	left: 8px;
+	width:240px;
+	height:150px;
+
+}
+
+#titreBelleMaison{
+
+	color: #463E82;
+	position: relative;
+	bottom: 70px;
+	left: 980px;
+	padding: none;
+	font-size: 30px;
+}
+
+#titreBelleMaison{
+	  font-family: Rockwell, serif;
+}
+
+.buttonReturnerMenu:hover {
+  background:gray;
+}
+.buttonReturnerMenu {
+
+  background-color: #463E82; /* Blue like logo */
+  border: outset;
+  color:  white ; 
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  bottom: 115px;
+  left: 860px;
+  
+}
+.buttonReturnerMenu {border-radius: 12px;}
+
+ h3{
+	color: #463E82;
+	position: absolute;
+	left: 400px;
+	height:200px;
+	top: 240px;
+	font-size: 25px;
+		
+}
+
+/* background body*/
+
+.boryClass{
+	background-color: AliceBlue;
+	  background-size: 100% 100%;
+	  background-repeat: no-repeat;
+  padding:n-resize;
+}
+
+#remplirId{
+	  font-family: comic sans ms, cursive;
+	
+}
+
+/* formulaire pour faire le calcul*/
+
+.calculHipo{
+	position: absolute;
+	top:70%;
+	left:20%;
+	width: 65%;
+	height: 50%;
+	margin-bottom: 500px;
+	border: 2px  solid #463E82;
+	background: #C3D887;
+	text-align: left;
+	display: inline-block;
+	font-size: 16px;
+	font-family: arial;
+
+
+}
+
+#montant {
+	position: relative;
+	left: 20px;
+	bottom:1px;
+}
+#taux {
+	position: relative;
+		left: 380px;
+	top:80px;
+}
+#tauxInput{
+			position: relative;
+	left: 400px;
+	top:80px;
+}
+
+#tauxA{
+		position: relative;
+	left: 430px;
+	top:80px;
+}
+#terme {
+	position: relative;
+	left: 20px;
+	bottom:41px;
+}
+
+
+
+#montantMois{
+	position: relative;
+	left: 380px;
+	bottom:124px;
+	
+}
+#montantM{
+		position: relative;
+	left: 430px;
+	bottom:124px;
+}
+
+#montantAnnee{
+	position: relative;
+	left: 380px;
+	bottom:124px;
+	
+}
+#montantA{
+		position: relative;
+	left: 430px;
+	bottom:124px;
+}
+
+.resultatInputClass{
+		position: relative;
+bottom: 124px;
+left:400px;	
+ padding: 10px 8px;
+   display: inline-block;
+ border: 1px  solid #463E82;
+  background: #f1f1f1;
+}
+
+#termeInput{
+	position: relative;
+bottom: 41px;
+left:50%;	
+ padding: 10px 8px;
+  display: inline-block;
+ border: 1px  solid #463E82;
+  background: #f1f1f1;
+}
+
+
+
+#montantInput {
+position: relative;
+top: 30%;
+left:50%;	
+ padding: 10px 8px;
+  display: inline-block;
+ border: 1px  solid #463E82;
+  background: #f1f1f1;
+  
+ 
+}
+
+.inputClass:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 5px solid #463E82;
+  margin-bottom: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* buttons*/
+
+.calculer, .effacer {
+width: 150px;
+height: 40px;
+position: relative;
+bottom: 160px;
+left: 140px;
+margin: 0 auto;
+display: inline-block;
+  background-color: #463E82;
+    border: outset;
+ 
+  color: white;
+  padding: 0px;
+ 
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  
+
+}
+.buttons{
+border-radius: 12px;
+}
+
+.calculer:hover {
+  background:gray;
+}
+
+.effacer:hover {
+  background:gray;
+}
+
+
+
+
+
+.buttons {
+width: 700px;
+position:relative;
+right:100px;
+top:60px;
+
+
+}
+
+/* footer */
+
+p{
+	display:flex;
+
+position:relative;
+
+bottom: 0;
+right:5px;
+
+height: 50px;
+width: 1000px;
+border-top: 1px solid #463E82;
+  color: #463E82;
+  font-family: sans-serif;
+  
+  font-size: 10px;
+
+  justify-content:center;
+   align-items:center;
+  
+ 
+}
+
+

@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+/* Objectif : document CSS pour la page des infos de client */
+/* Développé par: Beatriz Fortes */
+/* Script Date: 04 september, 2021 */
+
+
+
+
+/*top */
+#topBelleMaison {
+
+  border-bottom: 3px solid #463E82;
+  background-color: #C3D887 ;
+  background-size: 8px 8px;
+  background-repeat: no-repeat;
+  padding: none;
+
+	height:165px;
+
+}
+
+#logoBelleMaison{
+	position: relative;
+	top: 8px;
+	left: 10px;
+	width:240px;
+	height:150px;
+
+}
+
+#titreBelleMaison{
+
+	color: #463E82;
+	position: relative;
+	bottom: 70px;
+	left: 840px;
+	padding: none;
+	font-size: 30px;
+
+
+}
+#titreBelleMaison{
+	  font-family: Rockwell, serif;
+}
+
+.buttonReturnerMenu:hover {
+  background:gray;
+}
+.buttonReturnerMenu {
+
+  background-color: #463E82; /* Blue like logo */
+  border: outset;
+  color:  white ; 
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  bottom: 115px;
+  left: 860px;
+  
+}
+.buttonReturnerMenu {border-radius: 12px;}
+
+/*body*/
+
+.boryClass{
+	background-color: AliceBlue;
+	  background-size: 100% 100%;
+	  background-repeat: no-repeat;
+  padding:n-resize;
+}
+
+#remplirId{
+	  font-family: comic sans ms, cursive;
+	
+}
+
+
+
+ h3{
+	color: #463E82;
+	position: absolute;
+	left: 300px;
+	height:200px;
+	top: 240px;
+	font-size: 25px;
+		
+}
+
+
+/*Formulaire infos*/
+
+label {
+			color: black;
+            float: left;
+			 margin-left: 25px;
+			 margin-top: 20px;
+	
+        }
+		
+		#dateNid{
+			position: relative;
+			left: 23px;
+						top: 10px;
+			  padding: 8px 8px;
+			   border: 1px  solid #463E82;
+  background: #f1f1f1;
+  color: #463E82;
+
+		}
+
+.infos{
+	position: absolute;
+	top:70%;
+	left:30%;
+	width: 40%;
+	height: 90%;
+	margin-bottom: 500px;
+	border: 2px  solid #463E82;
+	background: #C3D887;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	font-family: arial;
+	
+
+}
+
+
+input[type=text] {
+		
+ padding: 15px 10px;
+  display: inline-block;
+ border: 1px  solid #463E82;
+  background: #f1f1f1;
+  
+ 
+}
+
+input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 5px solid #463E82;
+  margin-bottom: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*buttons*/
+.valider, .effacer {
+width: 200px;
+height: 40px;
+
+margin: 0 auto;
+display: inline-block;
+  background-color: #463E82;
+    border: outset;
+  color:  white ; 
+  color: white;
+  padding: 0px;
+  margin: 8px 0;
+  text-align: center;
+  cursor: pointer;
+ font-size: 16px;
+
+}
+.buttons{
+border-radius: 12px;
+}
+
+.valider:hover {
+    background:gray;
+}
+
+.effacer:hover {
+   background:gray;
+}
+
+
+
+
+
+.buttons {
+width: 700px;
+margin: 0 0;
+display:inline-block;
+position:relative;
+right:100px;
+bottom:10px;
+
+
+}
+
+
+/* footer */
+
+#footerId{
+	
+	position: relative;
+	
+	padding-top:10%;
+	
+}
+
+p{
+	display:flex;
+
+position:relative;
+
+top:60px;
+
+right:22%;
+
+height: 50px;
+width: 1000px;
+border-top: 1px solid #463E82;
+  color: #463E82;
+  font-family: sans-serif;
+  
+  font-size: 10px;
+
+  justify-content:center;
+   align-items:center;
+  
+ 
+}
+

@@ -1,0 +1,384 @@
+/* Objectif : document CSS pour la page de types de proprietés */
+/* Développé par: Beatriz Fortes */
+/* Script Date: 04 september, 2021 */
+
+
+#topBelleMaison {
+
+  border-bottom: 3px solid #463E82;
+  background-color: #C3D887 ;
+  background-size: 8px 8px;
+  background-repeat: no-repeat;
+  padding: none;
+  height:165px;
+
+}
+
+#logoBelleMaison{
+	position: relative;
+	top: 8px;
+	left: 10px;
+	width:240px;
+	height:150px;
+
+}
+
+#titreBelleMaison{
+
+	color: #463E82;
+	position: relative;
+	bottom: 70px;
+	left: 900px;
+	padding: none;
+	font-size: 30px;
+	
+
+
+}
+#titreBelleMaison{
+	  font-family: Rockwell, serif;
+}
+.menu {
+	
+	display: block;
+	color: #C3D887;
+	background: #463E82;
+	   border-radius: 0.9em;
+	   border: outset;
+	 padding: 0.4em;
+	 text-align: center;
+	   text-decoration: none;
+	   font-size: 12px;
+	   
+}
+
+.container{
+	display: block;
+	color:Blue;
+	position: relative;
+	top: 3px;
+	right: 1%;
+	font-size: 20px;
+	padding: 5px 20px;
+
+
+
+
+}
+
+.boryClass{
+	background-color: AliceBlue;
+	  background-size: 100% 100%;
+	  background-repeat: no-repeat;
+  padding:n-resize;
+}
+
+
+.buttonReturnerMenu:hover {
+   background-color: gray;
+}
+.buttonReturnerMenu {
+
+  background-color: #463E82; /* Blue like logo */
+  border: outset;
+  color:  white ; 
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  bottom: 115px;
+  left: 860px;
+  
+}
+.buttonReturnerMenu {
+	border-radius: 12px;
+}
+
+/* button choisir menu type propriété*/
+.menu {
+    position: relative;
+    padding: 2px;
+	top:70px;
+
+ 
+	
+}
+
+/*menu pour les types proprietés*/
+	
+.jumeleMenuId{
+	color: white;
+text-decoration:none;
+  box-sizing: border-box;
+    border: 5px solid #463E82;
+	  border: outset;
+	  border-radius: 0.5em;
+	  	 padding: 0.3em;
+  color:  white ;
+ font-family: sans-serif;
+   font-size: 16px;
+  background-color: #463E82;
+  background-size:10px;
+}
+.jumeleMenuId:hover {
+  background:gray;
+}
+
+.bungalowMenuId{
+	color: white;
+text-decoration:none;
+  box-sizing: border-box;
+    border: 5px solid #463E82;
+	  border: outset;
+	  border-radius: 0.5em;
+	  	 padding: 0.3em;
+  color:  white ;
+  font-family: sans-serif;
+   font-size: 16px;
+  background-color: #463E82;
+  background-size:10px;
+}
+.bungalowMenuId:hover {
+  background:gray;
+}
+
+.condoMenuId{
+	color: white;
+text-decoration:none;
+  box-sizing: border-box;
+    border: 5px solid #463E82;
+	  border: outset;
+	  border-radius: 0.5em;
+	  	 padding: 0.3em;
+  color:  white ;
+  font-family: sans-serif;
+   font-size: 16px;
+  background-color: #463E82;
+  background-size:10px;
+}
+.condoMenuId:hover {
+  background:gray;
+}
+
+.chaletMenuId{
+	color: white;
+text-decoration:none;
+  box-sizing: border-box;
+    border: 5px solid #463E82;
+	  border: outset;
+	  border-radius: 0.5em;
+	  	 padding: 0.3em;
+  color:  white ;
+  font-family: sans-serif;
+   font-size: 16px;
+  background-color: #463E82;
+  background-size:10px;
+}
+.chaletMenuId:hover {
+  background:gray;
+}
+
+.duplexMenuId{
+	color: white;
+text-decoration:none;
+  box-sizing: border-box;
+    border: 5px solid #463E82;
+	  border: outset;
+	  border-radius: 0.5em;
+	  	 padding: 0.3em;
+  color:  white ;
+  font-family: sans-serif;
+   font-size: 16px;
+  background-color: #463E82;
+  background-size:10px;
+}
+.duplexMenuId:hover {
+  background:gray;
+}
+
+
+.triplexMenuId{
+	color: white;
+text-decoration:none;
+  box-sizing: border-box;
+    border: 5px solid #463E82;
+	  border: outset;
+	  border-radius: 0.5em;
+	  	 padding: 0.3em;
+  color:  white ;
+  font-family: sans-serif;
+   font-size: 16px;
+  background-color: #463E82;
+  background-size:10px;
+}
+.triplexMenuId:hover {
+  background:gray;
+}
+
+/* liste de type de propriété*/
+
+.container ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 8px;
+ 
+}
+
+
+
+
+ .submenubtn:hover {
+  
+    background: gray;
+
+}
+
+/*tableau pour chaque type de propriétes*/
+.menu-tab .menu-content {
+    padding: 1em 0.5em 0 0.5em;
+		  border: 5px solid #463E82;
+    background: blue;
+}
+
+hr {
+  border: 5px solid #463E82;
+  margin-bottom: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.jumeleMenu{
+	position: absolute;
+	top:70%;
+	left:30%;
+	width: 40%;
+	height: 35%;
+	margin-bottom: 500px;
+	border: 2px  solid #463E82;
+	background: #C3D887;
+	text-align: center;
+	display: inline-block;
+	
+
+}
+
+.bungalowMenu{
+	position: absolute;
+	top:110%;
+	left:30%;
+	width: 40%;
+	height: 45%;
+	margin-bottom: 30px;
+	border: 2px  solid #463E82;
+	background: #C3D887;
+	text-align: center;
+	display: inline-block;
+	
+
+}
+.condoMenu{
+	position: absolute;
+	top:160%;
+	left:30%;
+	width: 40%;
+	height: 35%;
+	margin-bottom: 30px;
+	border: 2px  solid #463E82;
+	background: #C3D887;
+	text-align: center;
+	display: inline-block;
+	
+
+}
+.chaletMenu{
+	position: absolute;
+	top:200%;
+	left:30%;
+	width: 40%;
+	height: 35%;
+	margin-bottom: 30px;
+	border: 2px  solid #463E82;
+	background: #C3D887;
+	text-align: center;
+	display: inline-block;
+	
+
+}
+.duplexMenu{
+	position: absolute;
+	top:240%;
+	left:30%;
+	width: 40%;
+	height: 35%;
+	margin-bottom: 30px;
+	border: 2px  solid #463E82;
+	background: #C3D887;
+	text-align: center;
+	display: inline-block;
+
+
+}
+.triplexMenu{
+	position: absolute;
+	top:280%;
+	left:30%;
+	width: 40%;
+	height: 45%;
+	margin-bottom: 30px;
+	border: 2px  solid #463E82;
+	background: #C3D887;
+	text-align: center;
+	display: inline-block;
+
+	
+
+}
+
+/*Title pour chaque tableau*/
+#title{
+	color: white;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	 border: 1px solid white;
+	 background-color: #463E82;
+	opacity: 0.7;
+	 
+
+}
+
+/*footer*/	
+#footerId{
+	
+	position: relative;
+	
+	padding-top:10%;
+	
+}
+p{
+	display:flex;
+
+position:relative;
+
+
+top:70%;
+
+right:48%;
+height: 50px;
+width: 1000px;
+border-top: 1px solid #463E82;
+  color: #463E82;
+  font-family: sans-serif;
+  
+  font-size: 10px;
+
+  justify-content:center;
+   align-items:center;
+  
+ 
+}

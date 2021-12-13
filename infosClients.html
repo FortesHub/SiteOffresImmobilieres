@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="author" content="Beatriz Fortes" />
+	<link rel="BelleMaison icon" type="image/x-icon" href="images/BelleMaison.ico" />
+	<link href="css/infoclient.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="javascript/infosclients.js"></script> 
+
+<title> BelleMaison - L'agence immobilie&#768re </title>
+
+</head>
+
+<body class="boryClass">
+<header>
+<div id="topBelleMaison">
+<img id="logoBelleMaison" src="images/Belle maison.gif" alt="Logo">
+
+<a href="menu.html"><button  class="buttonReturnerMenu"  >Returner menu</button></a>
+
+<h2 id="titreBelleMaison">Informations du Client:</h2>
+</div> 
+
+
+</header>
+
+<form id="formInscription" action="javascript:void(0);">
+<div class="container">
+
+
+
+<h3 id="remplirId">Veuillez remplir ce formulaire pour cre&#769er une compte. </h3>
+
+
+<div class="infos">
+ <hr>
+
+
+    <input type="text" placeholder="Entrez votre Nom" name="nom" id="nomid" size="60" required />
+
+   
+    <input type="text" placeholder="Entrez votre Pre&#769nom" name="pnom" id="pnomid" size="60" required />
+	
+
+    <input type="text" placeholder="Entrez votre Courriel" name="email" id="courrielid" size="60" required />
+	
+
+    <input type="text" placeholder="Entrez votre adresse" name="adresse" id="adresseid" size="60" required />
+	
+	<label for="dNaissance"> Entrez votre date de naissance: </label>
+	
+    <input type="date" placeholder="Entrez votre date de naissance" name="dateN" id="dateNid" size="60" required />
+	
+    </hr>
+	
+	</form>	 
+	
+<div class="buttons">
+	<br><br><input type="button" class="valider" id="valider" onclick="validerInfos()" value="Valider"/>
+	<input type="button" class="effacer" id="effacer" onclick="effacer_Click()" value="Effacer"/> 
+
+	<div id="affichage">
+
+		
+ <footer id="footerId">
+        <p >&copy;2021 BelleMaison - L'agence immobilie&#768re. Tous les droits sont re&#769serve&#769s.</p>
+    </footer> 
+	
+	</div>
+
+</div>
+
+</div>	
+</body>
+
+
+
+</html>
+
